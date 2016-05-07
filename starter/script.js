@@ -5,8 +5,7 @@ if (character === "prince") {
   console.log(prince )
 } else {
 
-  var princess = prompt("Tis was the day the astounding princess took the throne to lead her people. Your majesty went to the ______ side" + '\n' + "Fill in the blank: north or south?");
-
+  var princess = prompt("Tis was the day the astounding princess took the throne to lead her people. Your majesty went to the ______ side" + '\n' + "Fill in the blank: north or south?")
 
   console.log(princess )
 }
@@ -30,7 +29,21 @@ if (sad == "south" || happy == "south") {
 }
 
 if (south == "justice" || north == "justice") {
-  prompt("Its the only way to get justice. Justice isn't given, its taken by taking control of your own circumstances so your survival or happiness depends on no one other than yourself. We have to help one anther build up our communities. Community doesn't exist unless they are made." )
+  prompt("Its the only way to get justice. Justice isn't given, its taken by taking control of your own circumstances so your survival or happiness depends on no one other than yourself. We have to help one anther build up our communities. Community doesn't exist unless they are made." + '\n' + "One more question: PRESS ENTER" )
 } else {
-  prompt("Its the only way to get freedom. Freedom comes when we remove ourselves from what we have become and live in who we are. Material things come and go and when we have, we are to give. Freedom is a right given to us by birth and taken away when we difine our freedom by things.")
+  prompt("Its the only way to get freedom. Freedom comes when we remove ourselves from what we have become and live in who we are. Material things come and go and when we have, we are to give. Freedom is a right given to us by birth and taken away when we difine our freedom by things."+ '\n' + "One more question: PRESS ENTER")
+}
+
+var storyEnd = prompt("In times you have been given abundantly, how often have you shared ___ out of 10 times")
+
+if (1<3) {
+  prompt("Good Karma! think of how many more good things will come your way with the more you share! Next time your blessed, give what you have to another in need")
+}
+
+if (4<6) {
+  prompt("Such a thoughtful person! More of us need to be like you. Maybe if we all shared, their would be less greed")
+}
+
+if (7<10) {
+  prompt("Wow!!!! With more buddha's like you, we would have world peace and no more war!")
 };
